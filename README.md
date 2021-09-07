@@ -202,10 +202,10 @@ bool = isSquareTriangularNumber( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]: test if a value is a number having an integer value.
--   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: test if a value is a number.
--   [`@stdlib/assert/is-square-number`][@stdlib/assert/is-square-number]: test if a value is a square number.
--   [`@stdlib/assert/is-triangular-number`][@stdlib/assert/is-triangular-number]: test if a value is a triangular number.
+-   <span class="package-name">[`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having an integer value.</span>
+-   <span class="package-name">[`@stdlib/assert/is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
+-   <span class="package-name">[`@stdlib/assert/is-square-number`][@stdlib/assert/is-square-number]</span><span class="delimiter">: </span><span class="description">test if a value is a square number.</span>
+-   <span class="package-name">[`@stdlib/assert/is-triangular-number`][@stdlib/assert/is-triangular-number]</span><span class="delimiter">: </span><span class="description">test if a value is a triangular number.</span>
 
 </section>
 
@@ -269,7 +269,6 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-square-triangular-number/main/LICENSE
 
 [square-triangular-number]: https://en.wikipedia.org/wiki/Square_triangular_number
-
 
 <!-- <related-links> -->
 
