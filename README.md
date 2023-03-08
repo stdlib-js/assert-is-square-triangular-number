@@ -32,10 +32,14 @@ A **square triangular number** is an integer value which is both a [square numbe
 
 <!-- <equation class="equation" label="eq:triangular_number" align="center" raw="T_n = \frac{n(n+1)}{2}" alt="Triangular number formula."> -->
 
-<div class="equation" align="center" data-raw-text="T_n = \frac{n(n+1)}{2}" data-equation="eq:triangular_number">
+```math
+T_n = \frac{n(n+1)}{2}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="T_n = \frac{n(n+1)}{2}" data-equation="eq:triangular_number">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@b295a09a80f4fd0cc84682dcda0fe3e354394c0c/lib/node_modules/@stdlib/assert/is-square-triangular-number/docs/img/equation_triangular_number.svg" alt="Triangular number formula.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -45,10 +49,14 @@ By analogy with the square root of `x`, one can define the positive triangular r
 
 <!-- <equation class="equation" label="eq:triangular_root" align="center" raw="n = \frac{\sqrt{8x+1} - 1}{2}" alt="Triangular root formula."> -->
 
-<div class="equation" align="center" data-raw-text="n = \frac{\sqrt{8x+1} - 1}{2}" data-equation="eq:triangular_root">
+```math
+n = \frac{\sqrt{8x+1} - 1}{2}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="n = \frac{\sqrt{8x+1} - 1}{2}" data-equation="eq:triangular_root">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@b295a09a80f4fd0cc84682dcda0fe3e354394c0c/lib/node_modules/@stdlib/assert/is-square-triangular-number/docs/img/equation_triangular_root.svg" alt="Triangular root formula.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -58,38 +66,30 @@ Accordingly, an integer `x` is a [triangular number][@stdlib/assert/is-triangula
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-square-triangular-number
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isSquareTriangularNumber = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isSquareTriangularNumber = require( 'path/to/vendor/umd/assert-is-square-triangular-number/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isSquareTriangularNumber;
-})();
-</script>
+var isSquareTriangularNumber = require( '@stdlib/assert-is-square-triangular-number' );
 ```
 
 #### isSquareTriangularNumber( value )
@@ -174,14 +174,9 @@ bool = isSquareTriangularNumber.isObject( new Number( 36.0 ) );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Number = require( '@stdlib/number-ctor' );
+var isSquareTriangularNumber = require( '@stdlib/assert-is-square-triangular-number' );
 
 var bool = isSquareTriangularNumber( 36.0 );
 // returns true
@@ -209,11 +204,6 @@ bool = isSquareTriangularNumber( '0.5' );
 
 bool = isSquareTriangularNumber( null );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -290,7 +280,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -310,13 +300,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert-is-integer/tree/umd
+[@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert-is-integer
 
-[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert-is-number/tree/umd
+[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert-is-number
 
-[@stdlib/assert/is-square-number]: https://github.com/stdlib-js/assert-is-square-number/tree/umd
+[@stdlib/assert/is-square-number]: https://github.com/stdlib-js/assert-is-square-number
 
-[@stdlib/assert/is-triangular-number]: https://github.com/stdlib-js/assert-is-triangular-number/tree/umd
+[@stdlib/assert/is-triangular-number]: https://github.com/stdlib-js/assert-is-triangular-number
 
 <!-- </related-links> -->
 
