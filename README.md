@@ -86,7 +86,7 @@ Accordingly, an integer `x` is a [triangular number][@stdlib/assert/is-triangula
 To use in Observable,
 
 ```javascript
-isSquareTriangularNumber = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@umd/browser.js' )
+isSquareTriangularNumber = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -98,7 +98,7 @@ var isSquareTriangularNumber = require( 'path/to/vendor/umd/assert-is-square-tri
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -198,7 +198,7 @@ bool = isSquareTriangularNumber.isObject( new Number( 36.0 ) );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
