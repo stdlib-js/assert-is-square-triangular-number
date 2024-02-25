@@ -84,13 +84,18 @@ Accordingly, an integer `x` is a [triangular number][@stdlib/assert/is-triangula
 ## Usage
 
 ```javascript
+import isSquareTriangularNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-square-triangular-number/tags). For example,
+
+```javascript
 import isSquareTriangularNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.1-esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@esm/index.mjs';
 ```
 
 #### isSquareTriangularNumber( value )
@@ -182,7 +187,7 @@ bool = isSquareTriangularNumber.isObject( new Number( 36.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isSquareTriangularNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.1-esm/index.mjs';
+import isSquareTriangularNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@esm/index.mjs';
 
 var bool = isSquareTriangularNumber( 36.0 );
 // returns true
