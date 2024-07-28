@@ -84,13 +84,13 @@ Accordingly, an integer `x` is a [triangular number][@stdlib/assert/is-triangula
 ## Usage
 
 ```javascript
-import isSquareTriangularNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@deno/mod.js';
+import isSquareTriangularNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.2-deno/mod.js';
 ```
 
 #### isSquareTriangularNumber( value )
@@ -177,7 +177,7 @@ bool = isSquareTriangularNumber.isObject( new Number( 36.0 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isSquareTriangularNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@deno/mod.js';
+import isSquareTriangularNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-triangular-number@v0.2.2-deno/mod.js';
 
 var bool = isSquareTriangularNumber( 36.0 );
 // returns true
